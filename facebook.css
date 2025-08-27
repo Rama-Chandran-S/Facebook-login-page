@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    display: flex;
+    height: 100vh;
+    background-color: #f2f4f7;
+}
+
+.outer > .left{
+    background-color: #f2f4f7;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    
+}
+
+.outer > .right{
+    height: 100vh;
+    width: 50%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    
+}
+
+.outer > .right > .login{
+    height: 400px;
+    width: 400px;
+    background-color: #ffffff;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px;
+    margin-bottom: 10px;
+}
+
+#btn1{
+        height: 50px;
+        width: 380px;
+        font-weight: bold;
+        background-color: #0866ff;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+}
+
+form{
+    padding: 15px;
+}
+
+input{
+    height: 50px;
+    width: 380px;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+#pwd{
+    color: #0866ff;
+}
+
+#btn1:hover{
+    background-color: #417ad6;
+}
+
+#btn2{
+    height: 50px;
+        width: 200px;
+        font-weight: bold;
+        background-color: #42b72a;
+        color: white;
+        font-size: 18px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+}
+
+#btn2:hover{
+    background-color: #2fac16;
+}
+
+#para2{
+    font-size: 27px;
+}
+
+.outer > .left > .facebook{
+    height: 300px;
+    width: 500px;
+    background-color: #f2f4f7;
+    align-items: start;
+}
+#para1{
+    font-size: 15px;
+}
+input{
+    border: 2px solid lightgray;
+    &:focus{
+        border: none;
+    }
+}
